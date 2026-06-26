@@ -56,6 +56,15 @@ html,body{
 .centre{
   background-color: red;
 }
+.center h3{
+  font-size: 18px;
+  font-weight:500;
+}
+.centre h3 span{
+  font-size:10px;
+  font-weight:400;
+  color:#6b6060;
+}
 .bottom{
   display: flex;
   align-items: center;
