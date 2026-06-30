@@ -39,12 +39,13 @@ html,body{
 }
 .top img{
   height: 40px;
-  width:40px;
+  width: 40px;
   border-radius: 50%;
   border: 1px solid #0e0707;
   padding: 2px;
-  display: flex;
-
+  box-sizing: border-box;
+  object-fit: cover;
+  background: #fff;
 }
 .top button{
   display: flex;
