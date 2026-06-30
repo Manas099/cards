@@ -15,9 +15,11 @@ html,body{
 }
 .parent{
   width:100%;
-  height:100vh;
   background-color:#070101;
   padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .card{
   height: 320px;
@@ -58,6 +60,7 @@ html,body{
 .center h3{
   font-size: 18px;
   font-weight:500;
+  gap: 5px;
 }
 .centre h3 span{
   font-size:10px;
@@ -83,8 +86,8 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #b1b1b1;
-  padding-top: 10px 0px;
+  border-top: 1.5px solid #b1b1b1;
+  padding-top: 15px;
 }
 .bottom button{
   background-color: BLACK;
